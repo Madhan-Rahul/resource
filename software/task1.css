@@ -1,0 +1,424 @@
+.fix{
+position:fixed;
+z-index: 1000;
+}
+
+.icons{
+    font-size: 30px;
+    word-spacing: 2px;
+    padding-right:10px;
+}
+
+.icons i{
+border: none;
+    border-radius: 10px;
+    background-color:white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.me-auto{
+margin-left:auto;
+}
+
+.bgimage{
+padding:6%;
+background-image:url("boot34.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: scroll;
+background-position:center;
+}
+
+@media screen and (max-width:400px)
+{
+.bgimage
+{
+width:100%;
+background-size:cover;
+}
+
+.med1{
+width:100%;
+
+}
+}
+
+.mobile{
+font-height:10px;
+font-weight:600;
+}
+
+.lorem {
+        font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin: 20px 0px;
+}
+
+
+
+.but1{
+background-color:green;
+background-color:#f8d9c4;
+}
+
+.MobileApp{
+margin-left:10px;
+width:485px;
+}
+
+.ul1 li{
+padding-left: 20px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.ul1 li::marker{
+color:black;
+content: "✓";
+}
+
+.btn1{
+    width: 160px;
+    padding: 15px 20px;
+    margin:auto;
+    margin-bottom:50px;
+    border:none;
+    background-color: #dee9ed;
+    color: #276276;
+}
+
+.basic{
+ font-size: 20px;
+    color: grey;
+    padding: 5px;
+}
+
+.basic2{
+font-size:75px;
+font-weight:500;
+}
+
+.advance{
+font-size:18px;
+}
+
+.advance1{
+font-size:75px;
+font-weight:500;
+}
+
+.ul2 li{
+
+line-height: 50px;
+font-size: 22px;
+padding-left:20px;
+}
+
+.ul2 li::marker{
+content:"✓";
+}
+
+.btn2{
+    width: 160px;
+    padding: 15px 20px;
+    margin:auto;
+    margin-bottom:50px;
+    border:none;
+    color: #071644;
+}
+
+.team{
+font-size:75px;
+font-weight:500;
+}
+
+.ul3 li{
+line-height: 50px;
+font-size: 22px;
+padding-left:20px;
+}
+
+.ul3 li::marker{
+content:"✓";
+}
+
+
+.btn3{
+    width: 160px;
+    padding: 15px 20px;
+    margin:auto;
+    margin-bottom:50px;
+    border:none;
+      background-color: #dee9ed;
+    color: #276276;
+}
+
+.icircle{
+background-color:#ff8584;
+}
+
+.income{
+background-color:#dde8ec;
+}
+
+.from{
+width:315px;
+}
+
+
+.plus label{
+font-size:20px;
+}
+
+.bgcolor
+{
+background-color:rgb(239 239 239);
+}
+
+.bord{
+border:2px solid #e1e6e7;
+border-radius:10px;
+}
+
+
+.icons{
+border:0px;
+border-radius:100px;
+}
+
+.roundimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+
+.iconfti{
+font-size:20px;
+border:opx;
+background-color:#efefef;
+}
+
+.hang{
+background-color:#efefef;
+}
+
+.margin{
+margin:0px
+}
+
+.form{
+background-color:#dce8eb;
+}
+
+.flexes{
+display:flex;
+justify-content:space-between;
+}
+
+.bgcolo{
+background-color:#dde8ec;
+}
+
+.list{
+list-style:none;
+line-height:40px;
+}
+
+
+.bluered{
+background: rgb(29,46,230);
+background: linear-gradient(131deg, rgba(29,46,230,1) 75%, rgba(230,29,29,1) 75%);
+}
+
+@media screen and (max-width:992px)
+{
+    .ulauto{
+        display:flex;
+        justify-content:center 
+     
+    }
+}
+
+@media screen and (max-width:1400px)
+{
+.basic2{
+font-size:50px;
+}
+
+.team{
+font-size:50px;
+}
+
+.advance1{
+font-size:50px;
+}
+}
+
+@media screen and (max-width:1200px)
+{	
+.ul1 li
+{
+font-size:15px;
+
+}
+
+
+.ul2 li
+{
+font-size:15px;
+
+}
+
+
+.ul3 li
+{
+font-size:15px;
+
+}
+}
+
+.imgheight{
+height:30%;
+}
+
+.width{
+width:135%;
+}
+
+.unorder li::marker
+{
+content:"";
+}
+
+.unorder li✓
+{
+    
+    padding: 10px;
+    font-size: 20px;
+}
+
+.but7 a{
+text-decoration:none;
+padding-left:30px;
+padding-right:30px;
+}
+
+.but7{
+margin-bottom:35px;
+}
+
+.rel{
+    position: relative;
+    left: 10%;
+    padding-bottom: 15%;	
+}
+
+
+
+.abs{
+    position: absolute;
+    left: 20%;
+    z-index: -1;
+}
+
+.pospad{
+    padding-left: 23%;
+    padding-bottom: 0px;
+}
+
+.zind{
+
+}
+
+@media screen and (max-width:992px)
+{
+.lorem3{
+margin:auto;
+margin-top:30px;
+}
+
+.Mobapp{
+margin:auto;
+margin-top:40px;
+}
+}
+
+.pnone{
+padding:10px;
+}
+
+@media screen and (max-width:1400px)
+{
+.i4{
+margin:auto;
+}
+}
+
+@media screen and (max-width:350px)
+{
+.medmargin
+{
+margin:0px;
+}
+
+.pnone{
+padding:0px;
+}
+}
+
+.header{
+position:relative;
+}
+
+
+
+
+
+.funs ul li::marker
+{
+content: "✓";
+}
+
+.funs li{
+margin-bottom:15px;
+}
+
+.butls{
+width:200px;
+background-color:#dde8ec;
+color:black;
+
+}
+
+.butls a{
+text-decoration:none;
+color:black;
+}
+
+.imheight{
+height:80%;
+}
+
+.paddi{
+margin-left:70px;
+}
+
+.abso1{
+z-index:1;
+}
+
+.abso2{
+position:absolute;
+left:35%;
+}
+
+
+
+
+
+
+
